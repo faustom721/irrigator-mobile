@@ -11,7 +11,7 @@ export default function FieldsList({ fields }) {
   return (
     <FlatList
       data={fields}
-      numColumns={2}
+      numColumns={1}
       showsVerticalScrollIndicator={false}
       keyExtractor={(item) => item.id.toString()}
       renderItem={({ item }) => <FieldCard field={item} />}

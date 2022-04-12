@@ -12,7 +12,7 @@ export default function StatsNavigation() {
       <Stack.Screen
         name='FieldsList'
         component={FieldsScreen}
-        options={{ title: 'Plantaciones' }}
+        options={{ title: 'Plantaciones', headerShown: false }}
       />
       <Stack.Screen
         name='PropertiesList'

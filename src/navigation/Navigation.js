@@ -14,6 +14,7 @@ export default function Navigation() {
         name='FieldsHome'
         component={FieldsNavigation}
         options={{
+          title: 'Plantaciones',
           tabBarLabel: 'Plantaciones',
           tabBarIcon: (color) => (
             <Icon name='seedling' color={color} size={20} />
@@ -24,6 +25,7 @@ export default function Navigation() {
         name='StatsHome'
         component={StatsNavigation}
         options={{
+          title: 'Estadísticas',
           tabBarLabel: 'Estadísticas',
           tabBarIcon: (color) => (
             <Icon name='chart-bar' color={color} size={20} />

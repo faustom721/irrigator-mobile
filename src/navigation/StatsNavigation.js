@@ -11,7 +11,7 @@ export default function StatsNavigation() {
       <Stack.Screen
         name='Stats'
         component={StatsScreen}
-        options={{ title: 'Estadísticas' }}
+        options={{ headerShown: false }}
       />
     </Stack.Navigator>
   );
